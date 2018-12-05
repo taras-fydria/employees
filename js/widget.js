@@ -6,7 +6,7 @@
     let ulHTML = '';
 
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', '../data/employees.json');
+    xhr.open('GET', './data/employees.json');
     xhr.send();
     xhr.onload = function () {
         let ajax = this;
